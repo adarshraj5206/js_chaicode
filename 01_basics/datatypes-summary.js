@@ -15,7 +15,22 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId); // false
 
+const bigNum =  345655464646564841665n
 
-// Non Primitive ( Non Primitive)
+
+// Non Primitive ( Reference )
 
 // Array, objects, functions
+
+const heros = [ "shaktiman", "naagraj", "Doga"]  // array
+
+let MyObj = {
+    name : "Adarsh",
+    age : 20,
+}
+
+const MyFunction = function(){
+    console.log("Hi adarsh...");
+    
+}
+
