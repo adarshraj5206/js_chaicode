@@ -34,3 +34,31 @@ const MyFunction = function(){
     
 }
 
+
+// ***************************************
+// Stack (all primitive data types stores in stack and share data type as a copy),
+// isme data type automatically update nhi hote hai 
+
+let myIntaId = "adi85.ig"
+
+let anotherName = myIntaId
+anotherName = "adarshpokie78"
+
+console.log(myIntaId);
+console.log(anotherName)
+
+// Heap (all Non-primitive data types stores in Heap and share data type as a reference)
+// when u update the reference data type and its orginal value automaticaly update 
+
+let user1 = {
+    email: "aman@gmail.com",
+    upi: "aman@ybl"
+}
+
+let user2 = user1
+
+user2.email = "azain@mail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
