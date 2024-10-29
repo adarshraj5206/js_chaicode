@@ -51,5 +51,3 @@ console.log(fruits2); // Outputs: ["apple", "date", "elderberry"]
 // Adding elements
 fruits2.splice(2, 0, "fig", "grape"); 
 console.log(fruits2); // Outputs: ["apple", "date", "fig", "grape", "elderberry"]
-
-
