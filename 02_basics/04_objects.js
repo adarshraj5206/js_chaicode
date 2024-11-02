@@ -54,3 +54,28 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+// object de-structuring - { }
+
+const course = {
+    courseName : " js in hindi ",
+    courseFees : 999,
+    courseInstructor : "Hitesh"
+}
+
+// course.courseInstructor
+
+// const { courseInstructor } = course
+// console.log(courseInstructor);
+
+const { courseInstructor : instructor } = course
+console.log(instructor);
+
+
+
+// json --> json is like a object but it dont have any name and it always keeps keys and value in strings
+
+// {
+//     "name" : "Adarsh",
+//     "courseName" : "js in hindi",
+//     "price" : "Free"
+// }
